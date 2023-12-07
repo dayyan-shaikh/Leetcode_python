@@ -1,4 +1,4 @@
-nums=[1,2,3,2]
+nums=[1,2,3,4,3]
 val=2
 k=0
 for i in range(len(nums)):
