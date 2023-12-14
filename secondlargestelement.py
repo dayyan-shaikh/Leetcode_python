@@ -5,11 +5,14 @@ l=[2,6,4,4,9,5,1,7]
 # m=list(s)
 # print(m[-2])
 # li=list(s)
-x=list(set(l))
-print(x)
-if len(x)>1:
-    x.sort()
-    print(x[-2])
-else:
-    print(-1)
+# x=list(set(l))
+# print(x)
+# if len(x)>1:
+#     x.sort()
+#     print(x[-2])
+# else:
+#     print(-1)
+
+m=list(set(l))
+print(m[-2])
     
