@@ -1,10 +1,3 @@
-# nums=[1,2,3,4]
-# hashset=set()
-# for i in nums:
-#     if i in hashset:
-#         print(True)
-#     hashset.add(i)
-
 # nums=[1,2,3,4,5,4]
 # new = list(set(nums)) #[1,2,3,4,5]
 # if new==nums:
