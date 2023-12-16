@@ -1,18 +1,14 @@
-# # nums = [1,2,3,1,2,3]
-# # k = 2
-# nums=[1]
-# k=1
-# l=0
+# paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
+# paths =[["pYyNGfBYbm","wxAscRuzOl"],["kzwEQHfwce","pYyNGfBYbm"]]
+# paths =[["B","C"],["D","B"],["C","A"]]
 
-# for i in range(len(nums)):
-#     for j in range(i+1,len(nums)):
-#         if (len(nums)==1):
-#             print(k)
-#         else:
-#             nums[i]==nums[j]
-#             l=i-j
-# print(l)
-# if l<=k:
-#     print(True)
-# else:
-#     print(False)
+
+
+# flatList = sum(paths, [])
+# print(flatList[-1])
+# a=list(set(flatList))
+# print(a)
+# print(a[-1])
+
+
+ 
