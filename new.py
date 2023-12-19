@@ -10,7 +10,7 @@
 
 
 nums1 = [1, 2]
-nums2 = [4,5]
+nums2 = [5]
 
 nums = nums1 + nums2
 nums.sort()
@@ -20,9 +20,9 @@ if len(nums) % 2 != 0:
     print(nums[centerIndex])
 else:
     middle1 = nums[len(nums) // 2 - 1]
-    print(middle1)
     middle2 = nums[len(nums) // 2]
     print((float(middle1) + float(middle2)) / 2.0)
+
 
     
 
