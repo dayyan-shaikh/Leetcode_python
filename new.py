@@ -9,14 +9,12 @@
 #             print(money)
 
 
-x="abc"
-y="ahjgbdsghc"
-z=0
 
-for i in range(len(x)-1):
-    for j in range(i+1,len(y)):
-        if x[i]==y[j]:
-            z=i+1
-            
-            print(True)
+# Input: strs = ["flower","flow","flight"]
+# Output: "fl"
 
+
+haystack = "sadbutsad"
+needle = "sad"
+print(haystack.find(needle))
+        
