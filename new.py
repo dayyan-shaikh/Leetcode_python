@@ -13,5 +13,11 @@
 # Input: strs = ["flower","flow","flight"]
 # Output: "fl"
 
+# s="(]"
+# p=["{}","[]","()"]
+# for i in range(len(p)):
+#     if s==p[i]:
+#         print((True))
+# print(False)
 
         
