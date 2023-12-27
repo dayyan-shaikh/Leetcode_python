@@ -1,5 +1,5 @@
-a="111"
-b=a[::-1].replace(" ","").lower()
+a="121"
+b=a[::-1].replace(" ","")
 if a==b:
     print(True)
 else:
