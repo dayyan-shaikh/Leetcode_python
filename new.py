@@ -20,11 +20,3 @@
 #         print((True))
 # print(False)
 
-from collections import Counter
-ransomNote = "aa"
-magazine = "aab"
-st1, st2 = Counter(ransomNote), Counter(magazine)
-if st1 & st2 == st1:
-    print(True)
-else:
-    print(False)
