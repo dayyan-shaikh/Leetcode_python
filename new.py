@@ -19,12 +19,10 @@
 #     if s==p[i]:
 #         print((True))
 # print(False)
-nums = [-1,0,3,5,9,12]
-target = 9
-for i in range(len(nums)):
-    if nums[i]!=target:
-        i=i+1
-    elif nums[i]==target:
-        print(i)
-else:
-    print(-1)
+digits = [1,2,3]
+a=(''.join(str(x) for x in digits))
+a=int(a)
+b=(a+1)
+b=[b]
+c=list(map(int, str(b[0])))
+print(c)
