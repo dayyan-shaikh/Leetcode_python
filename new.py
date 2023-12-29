@@ -19,10 +19,4 @@
 #     if s==p[i]:
 #         print((True))
 # print(False)
-digits = [1,2,3]
-a=(''.join(str(x) for x in digits))
-a=int(a)
-b=(a+1)
-b=[b]
-c=list(map(int, str(b[0])))
-print(c)
+
