@@ -30,8 +30,9 @@ k = 3
 # r=res+res1
 # print(r)
 for i in range(k):
+    print(i)
     a=nums.pop()
-    print(a)
+    # print(a)
     nums.insert(0,a)
-    print(nums)
-# print(nums)
+    # print(nums)
+# print(i)
