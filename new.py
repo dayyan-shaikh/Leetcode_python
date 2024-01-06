@@ -21,3 +21,11 @@
 # print(False)
 
 
+nums = [5,4,2,3]
+nums.sort()
+res=[]
+for i in range(0,len(nums),2):
+    print(i)
+    res.append(i+1)
+    res.append(i)
+print(res)
