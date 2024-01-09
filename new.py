@@ -21,11 +21,18 @@
 # print(False)
 
 
-nums = [5,4,2,3]
-nums.sort()
-res=[]
-for i in range(0,len(nums),2):
-    print(i)
-    res.append(i+1)
-    res.append(i)
-print(res)
+# nums = [5,4,2,3]
+# nums.sort()
+# res=[]
+# for i in range(0,len(nums),2):
+#     print(i)
+#     res.append(i+1)
+#     res.append(i)
+# print(res)
+
+list1 = [1,2,4]
+list2 = [1,3,4]
+
+list3=list1+list2
+list3.sort()
+print(list3)
