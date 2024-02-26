@@ -30,12 +30,35 @@
 #     res.append(i)
 # print(res)
 
-list1 = [1,2,4]
-list2 = [1,3,4]
-list3=[]
-for i in list1:
-    list3.append(i)
-for j in list2:
-    list3.append(j)
-list3.sort()
-print(list3)
+# list1 = [1,2,4]
+# list2 = [1,3,4]
+# list3=[]
+# for i in list1:
+#     list3.append(i)
+# for j in list2:
+#     list3.append(j)
+# list3.sort()
+# print(list3)
+
+# test_list = [3, 6, 7, 8, 9, 2, 1, 5]
+ 
+# res = test_list[::2] 
+
+# print(res)
+# sum=0
+# for i in range(len(res)):
+#     sum=sum+res[i]
+# print(sum)
+
+a=[1,4,5,7,8]
+b=[2,3,6]
+c=[]
+for i in a:
+    for j in b:
+        if i<j:
+            c.append(i)
+        else:
+            c.append(j)
+c=list(set(c))
+print(c)
+            
