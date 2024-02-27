@@ -55,10 +55,8 @@ b=[2,3,6]
 c=[]
 for i in a:
     for j in b:
-        if i<j:
-            c.append(i)
-        else:
-            c.append(j)
+        c.append(i)
+        c.append(j)
 c=list(set(c))
 print(c)
             
