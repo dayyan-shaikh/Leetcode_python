@@ -40,23 +40,23 @@
 # list3.sort()
 # print(list3)
 
-# test_list = [3, 6, 7, 8, 9, 2, 1, 5]
+test_list = [3, 6, 7, 8, 9, 2, 1, 5]
  
-# res = test_list[::2] 
+res = test_list[::2] 
 
-# print(res)
-# sum=0
-# for i in range(len(res)):
-#     sum=sum+res[i]
-# print(sum)
+print(res)
+sum=0
+for i in range(len(res)):
+    sum=sum+res[i]
+print(sum)
 
-a=[1,4,5,7,8]
-b=[2,3,6]
-c=[]
-for i in a:
-    for j in b:
-        c.append(i)
-        c.append(j)
-c=list(set(c))
-print(c)
+# a=[1,4,5,7,8]
+# b=[2,3,6]
+# c=[]
+# for i in a:
+#     for j in b:
+#         c.append(i)
+#         c.append(j)
+# c=list(set(c))
+# print(c)
             
