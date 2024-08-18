@@ -60,9 +60,6 @@
 # c=list(set(c))
 # print(c)
 
-char ="A"
-if char.islower():
-    print('0')
-else:
-    print('1')
+
+
             
