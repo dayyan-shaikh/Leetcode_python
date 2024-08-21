@@ -5,3 +5,6 @@ if new==nums:
 else:
     print("True")
     
+
+        
+        
